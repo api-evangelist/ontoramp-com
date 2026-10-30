@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ontoramp-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://ontoramp.com/
+OntoRamp provides a governance operating system for agentic AI, offering tools to assess, certify, and roadmap governance integrity. The platform delivers a 3D governance simulation, certification programs, and a marketplace of governance tools, helping organizations ensure responsible AI deployment and compliance with emerging standards.
+
+**Areas:** Company · AI Governance · Agentic AI · Compliance · Certification
+
+## ontoramp-com on APIs.io
+
+Everything profiled for ontoramp-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ontoramp-com/](https://apis.io/providers/ontoramp-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [ontoramp-com Commerce API](https://apis.io/apis/ontoramp-com/ontoramp-com-commerce-api/) — Agent-initiated purchase. Mint a Stripe Checkout link for a self-serve plan; payment completes on Stripe's hosted page (no API key required).
+- [ontoramp-com Decision Intelligence API](https://apis.io/apis/ontoramp-com/ontoramp-com-decision-intelligence-api/) — Request an assessment, submit a full tenant-isolated assessment questionnaire (Developer tier or above), log consequential decisions to a governed decision…
+- [ontoramp-com Governance Evaluator API](https://apis.io/apis/ontoramp-com/ontoramp-com-governance-evaluator-api/) — Governance maturity gap analysis, document compliance linting, and evidence-linked governance briefs. SOC 2 readiness, ISO 27001, NIST CSF. Free tier:…
+- [ontoramp-com Knowledge Graph API](https://apis.io/apis/ontoramp-com/ontoramp-com-knowledge-graph-api/) — Search and traverse the client-safe tier of OntoRamp's governed knowledge base for architecture assessment, compliance mapping, and control analysis. Free…
+- [ontoramp-com Projection Engine API](https://apis.io/apis/ontoramp-com/ontoramp-com-projection-engine-api/) — Run governance maturity simulations and retrieve domain-level assessment verdicts with evidence-backed rationale. Free tier: fair-use allowance; running…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Ontoramp Com Agentic Access](https://apis.io/agentic-access/ontoramp-com/ontoramp-com-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [CheckoutLink](https://apis.io/schemas/ontoramp-com/ontoramp-com-checkout-link/)
+- [CheckoutRequest](https://apis.io/schemas/ontoramp-com/ontoramp-com-checkout-request/)
+- [McpRequest](https://apis.io/schemas/ontoramp-com/ontoramp-com-mcp-request/)
+- [McpResponse](https://apis.io/schemas/ontoramp-com/ontoramp-com-mcp-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ontoramp Com Context](https://apis.io/jsonld/ontoramp-com/ontoramp-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ontoramp-com API Rules](https://apis.io/rules/ontoramp-com/ontoramp-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ontoramp Com Authentication](https://apis.io/security/ontoramp-com/ontoramp-com-authentication/)
+- [Ontoramp Com Domain Security](https://apis.io/security/ontoramp-com/ontoramp-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ontoramp Com Plans Pricing](https://apis.io/plans/ontoramp-com/ontoramp-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ontoramp.com/)
+- [Getting started](https://ontoramp.com/docs/quickstart)
+- [API reference](https://ontoramp.com/docs)
+- [Pricing](https://ontoramp.com/pricing)
+- [Support](https://ontoramp.com/support)
+- [Security](https://ontoramp.com/legal/security)
+- [Terms of service](https://ontoramp.com/legal/terms)
+- [Privacy policy](https://ontoramp.com/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 52.6** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 58.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 60.0 |
+
+**Agent readiness 37.3** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ontoramp-com/](https://apis.io/providers/ontoramp-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ontoramp-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ontoramp-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
